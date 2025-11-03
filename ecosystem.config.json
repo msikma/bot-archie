@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "ArchieBot",
+      "script": "npm",
+      "args": ["run", "bot"],
+      "instances": "1",
+      "autorestart": true,
+      "watch": false,
+      "max_memory_restart": "4G"
+    }
+  ]
+}
