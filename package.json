@@ -35,5 +35,8 @@
     "@dada78641/cronbot": "^0.3.1",
     "@dada78641/cronbot-task-internetarchive": "^0.1.2",
     "discord.js": "^14.16.3"
+  },
+  "overrides": {
+    "better-sqlite3": "~11.9.0"
   }
 }
