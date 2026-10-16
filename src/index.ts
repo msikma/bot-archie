@@ -4,6 +4,7 @@
 import CronBot from '@dada78641/cronbot'
 import {requiredBotIntents} from '@dada78641/cronbot/util'
 import {taskInternetArchive} from '@dada78641/cronbot-task-internetarchive'
+import {taskMastodon} from '@dada78641/cronbot-task-mastodon'
 
 const archieBot = new CronBot({
   id: 'bot-archie',
@@ -11,6 +12,7 @@ const archieBot = new CronBot({
   path: import.meta.dirname,
   tasks: [
     taskInternetArchive,
+    taskMastodon,
   ],
   clientOptions: {intents: requiredBotIntents}
 })
