@@ -7,7 +7,9 @@
       "instances": "1",
       "autorestart": true,
       "watch": false,
-      "max_memory_restart": "4G"
+      "max_memory_restart": "4G",
+      "exec_mode": "fork",
+      "exp_backoff_restart_delay": 1000
     }
   ]
 }
